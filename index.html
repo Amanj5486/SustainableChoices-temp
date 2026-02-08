@@ -1,247 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainable Choices LLP | Design & Furnishing Solutions</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sustainable Choices LLP | Organic Manure & Vermicompost Exporter</title>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
-        }
+  <meta name="description" content="Sustainable Choices LLP is an Indian exporter of organic manure and vermicompost, supplying eco-friendly agricultural inputs to UAE, USA, and global markets." />
 
-        .header {
-            background: linear-gradient(135deg, #2c5f2d 0%, #97bc62 100%);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f6f9f6;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
 
-        .header h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
-            font-weight: 300;
-            letter-spacing: 2px;
-        }
+    header {
+      background: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid #2e7d32;
+    }
 
-        .header p {
-            font-size: 1.2em;
-            font-weight: 300;
-            margin-top: 15px;
-        }
+    header img {
+      max-width: 220px;
+      margin-bottom: 20px;
+    }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #2e7d32;
+    }
 
-        .section {
-            background: white;
-            margin: 30px 0;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+    header p {
+      font-size: 18px;
+      color: #555;
+      max-width: 800px;
+      margin: 15px auto 0;
+    }
 
-        .section h2 {
-            color: #2c5f2d;
-            margin-bottom: 20px;
-            font-size: 2em;
-            border-bottom: 3px solid #97bc62;
-            padding-bottom: 10px;
-        }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-        .section p {
-            margin-bottom: 15px;
-            line-height: 1.8;
-            color: #555;
-        }
+    h2 {
+      color: #2e7d32;
+      border-left: 6px solid #2e7d32;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
 
-        .business-areas {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
 
-        .business-card {
-            background: #f5f5f5;
-            padding: 25px;
-            border-radius: 8px;
-            border-left: 4px solid #97bc62;
-            transition: transform 0.3s ease;
-        }
+    ul {
+      padding-left: 20px;
+    }
 
-        .business-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
+    .highlight {
+      font-weight: bold;
+      color: #1b5e20;
+    }
 
-        .business-card h3 {
-            color: #2c5f2d;
-            margin-bottom: 10px;
-        }
+    .export {
+      background: #e8f5e9;
+      border-left: 6px solid #1b5e20;
+    }
 
-        .credentials {
-            background: #e8f5e9;
-            padding: 25px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
+    footer {
+      background: #1b5e20;
+      color: #ffffff;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 50px;
+    }
 
-        .credentials h3 {
-            color: #2c5f2d;
-            margin-bottom: 15px;
-        }
+    footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
 
-        .credentials p {
-            margin: 8px 0;
-            color: #333;
-        }
-
-        .credentials strong {
-            color: #2c5f2d;
-            display: inline-block;
-            width: 180px;
-        }
-
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
-
-        .contact-card {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        .contact-card h3 {
-            color: #2c5f2d;
-            margin-bottom: 15px;
-        }
-
-        .contact-card p {
-            margin: 8px 0;
-        }
-
-        .footer {
-            background: #2c5f2d;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 50px;
-        }
-
-        .footer p {
-            margin: 5px 0;
-        }
-
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
-            }
-
-            .section {
-                padding: 25px;
-            }
-
-            .credentials strong {
-                display: block;
-                width: 100%;
-                margin-bottom: 5px;
-            }
-        }
-    </style>
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="header">
-        <h1>SUSTAINABLE CHOICES LLP</h1>
-        <p>Design • Furnishing • Interior Decor Solutions</p>
+
+  <header>
+    <!-- Logo -->
+    <img src="logo.png" alt="Sustainable Choices LLP Logo"/>
+
+    <h1>Sustainable Choices LLP</h1>
+    <p>
+      Exporter of eco-friendly manure and vermicompost, enabling sustainable
+      agriculture across India, UAE, USA, and global markets.
+    </p>
+  </header>
+
+  <section>
+    <div class="card export">
+      <h2>Our Export Focus</h2>
+      <p>
+        Sustainable Choices LLP specializes in the production and export of
+        <span class="highlight">organic manure and vermicompost</span>,
+        meeting international quality and sustainability standards.
+      </p>
+      <ul>
+        <li>🌍 Export markets: UAE, USA, and other international regions</li>
+        <li>🌱 100% organic and eco-friendly inputs</li>
+        <li>📦 Bulk supply for farms, agri-projects, and distributors</li>
+        <li>📜 Compliance-ready for international sourcing requirements</li>
+      </ul>
     </div>
 
-    <div class="container">
-        <div class="section">
-            <h2>About Us</h2>
-            <p>
-                Sustainable Choices LLP is a newly established firm based in Pune, Maharashtra, dedicated to bringing exceptional Indian handicrafts and artisanal products to the design and furnishing sector. We work at the intersection of traditional craftsmanship and contemporary interior design.
-            </p>
-            <p>
-                As emerging volume buyers in the handicrafts industry, we are committed to sourcing authentic, high-quality products that blend sustainability with aesthetic excellence. Our focus lies in creating meaningful connections between skilled artisans and design-conscious clients.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Our Business Focus</h2>
-            <div class="business-areas">
-                <div class="business-card">
-                    <h3>🪑 Furniture</h3>
-                    <p>Sourcing handcrafted furniture pieces that combine traditional techniques with modern design sensibilities.</p>
-                </div>
-                <div class="business-card">
-                    <h3>🏠 Home Furnishings</h3>
-                    <p>Curating textiles, upholstery, and soft furnishings that add character and warmth to living spaces.</p>
-                </div>
-                <div class="business-card">
-                    <h3>✨ Interior Accessories</h3>
-                    <p>Selecting decorative accessories and home décor items that reflect craftsmanship and cultural richness.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Our Approach</h2>
-            <p>
-                We work with architects, designers, and builders to incorporate authentic Indian handicrafts into residential and commercial projects. Our goal is to establish strong partnerships with manufacturers and exporters who share our commitment to quality and sustainability.
-            </p>
-            <p>
-                As a volume buyer, we are focused on building long-term relationships with craftspeople and exporters, ensuring consistent quality and supporting the growth of India's rich handicraft heritage.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Company Credentials</h2>
-            <div class="credentials">
-                <h3>Registration Details</h3>
-                <p><strong>Company Name:</strong> Sustainable Choices LLP</p>
-                <p><strong>GST Number:</strong> 27AFSFS5148C1ZN</p>
-                <p><strong>Business Type:</strong> Limited Liability Partnership</p>
-                <p><strong>Location:</strong> Pune, Maharashtra, India</p>
-                <p><strong>Industry Focus:</strong> Furniture & Accessories, Home Furnishings, Interior Decor</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <div class="contact-card">
-                    <h3>📍 Address</h3>
-                    <p>Pune, Maharashtra</p>
-                    <p>India</p>
-                </div>
-                <div class="contact-card">
-                    <h3>💼 Business Inquiries</h3>
-                    <p>For sourcing partnerships and business collaborations</p>
-                    <p><strong>Phone:</strong> +91 9767602088</p>
-                </div>
-            </div>
-        </div>
+    <div class="card">
+      <h2>Company Credentials</h2>
+      <p><strong>Company Name:</strong> Sustainable Choices LLP</p>
+      <p><strong>Business Type:</strong> Limited Liability Partnership (LLP)</p>
+      <p><strong>Industry Focus:</strong> Fertilizer, Manure, Vermicompost</p>
+      <p><strong>Location:</strong> Pune, Maharashtra, India</p>
     </div>
 
-    <div class="footer">
-        <p>&copy; 2025 Sustainable Choices LLP. All Rights Reserved.</p>
-        <p>GST: 27AFSFS5148C1ZN | Pune, Maharashtra, India</p>
+    <div class="card">
+      <h2>Registration Details</h2>
+      <p><strong>GST Number:</strong> 27AFSFS5148C1ZN</p>
     </div>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+
+      <p><strong>📍 Address</strong><br/>
+        Pune, Maharashtra<br/>
+        India
+      </p>
+
+      <p><strong>💼 Business Inquiries</strong><br/>
+        For sourcing partnerships and business collaborations
+      </p>
+
+      <p><strong>📞 Phone:</strong> +91 73067 05516</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© Sustainable Choices LLP</p>
+    <p>Driving global agriculture towards a greener future 🌱</p>
+  </footer>
+
 </body>
 </html>
